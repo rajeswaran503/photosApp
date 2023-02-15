@@ -17,6 +17,10 @@
 		13FE5371299D5C2400C5F1AB /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE5370299D5C2400C5F1AB /* UIViewControllerExtension.swift */; };
 		13FE5373299D5C4600C5F1AB /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE5372299D5C4600C5F1AB /* UIViewExtension.swift */; };
 		13FE5376299D637C00C5F1AB /* NetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE5375299D637C00C5F1AB /* NetworkProtocol.swift */; };
+		13FE537A299D64DF00C5F1AB /* PhotoListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE5378299D64DF00C5F1AB /* PhotoListController.swift */; };
+		13FE537B299D64DF00C5F1AB /* PhotoListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13FE5379299D64DF00C5F1AB /* PhotoListController.xib */; };
+		13FE537E299D69E200C5F1AB /* PhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE537D299D69E200C5F1AB /* PhotosViewModel.swift */; };
+		13FE5380299D6A1800C5F1AB /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE537F299D6A1800C5F1AB /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		13FE5370299D5C2400C5F1AB /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		13FE5372299D5C4600C5F1AB /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		13FE5375299D637C00C5F1AB /* NetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProtocol.swift; sourceTree = "<group>"; };
+		13FE5378299D64DF00C5F1AB /* PhotoListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListController.swift; sourceTree = "<group>"; };
+		13FE5379299D64DF00C5F1AB /* PhotoListController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoListController.xib; sourceTree = "<group>"; };
+		13FE537D299D69E200C5F1AB /* PhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewModel.swift; sourceTree = "<group>"; };
+		13FE537F299D6A1800C5F1AB /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +175,7 @@
 		13FE5366299D59C200C5F1AB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				13FE537F299D6A1800C5F1AB /* Photo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,6 +183,7 @@
 		13FE5367299D59CB00C5F1AB /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				13FE537D299D69E200C5F1AB /* PhotosViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -181,6 +191,7 @@
 		13FE5368299D59D400C5F1AB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				13FE5377299D64AF00C5F1AB /* ViewController */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -240,6 +251,15 @@
 				13FE5375299D637C00C5F1AB /* NetworkProtocol.swift */,
 			);
 			path = NetworkHelper;
+			sourceTree = "<group>";
+		};
+		13FE5377299D64AF00C5F1AB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				13FE5378299D64DF00C5F1AB /* PhotoListController.swift */,
+				13FE5379299D64DF00C5F1AB /* PhotoListController.xib */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,6 +368,7 @@
 			files = (
 				13FE533F299D573B00C5F1AB /* LaunchScreen.storyboard in Resources */,
 				13FE533C299D573B00C5F1AB /* Assets.xcassets in Resources */,
+				13FE537B299D64DF00C5F1AB /* PhotoListController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,10 +393,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13FE5380299D6A1800C5F1AB /* Photo.swift in Sources */,
+				13FE537E299D69E200C5F1AB /* PhotosViewModel.swift in Sources */,
 				13FE5373299D5C4600C5F1AB /* UIViewExtension.swift in Sources */,
 				13FE5371299D5C2400C5F1AB /* UIViewControllerExtension.swift in Sources */,
 				13FE5376299D637C00C5F1AB /* NetworkProtocol.swift in Sources */,
 				13FE5333299D573800C5F1AB /* AppDelegate.swift in Sources */,
+				13FE537A299D64DF00C5F1AB /* PhotoListController.swift in Sources */,
 				13FE5335299D573800C5F1AB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,7 +498,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -528,7 +552,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -546,10 +570,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PhotosApp/Info.plist;
+				INFOPLIST_FILE = PhotosApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -573,10 +596,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PhotosApp/Info.plist;
+				INFOPLIST_FILE = PhotosApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

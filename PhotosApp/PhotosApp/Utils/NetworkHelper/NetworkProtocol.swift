@@ -13,5 +13,9 @@ protocol NetworkProtocol {
 
 
 class NetworkHelper: NetworkProtocol {
+    func performTask<T>(urlString: String, completion: @escaping (Result<T, Error>) -> Void) where T : Decodable {
+        
+    }
+  
     
 }

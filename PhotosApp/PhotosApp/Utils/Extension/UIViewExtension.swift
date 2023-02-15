@@ -5,7 +5,7 @@
 //  Created by Rajeswaran on 16/02/23.
 //
 
-import Foundation
+import UIKit
 
 extension UIView {
     func showActivityIndicator() {
