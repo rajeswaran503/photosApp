@@ -16,7 +16,7 @@ View Model: It receives information from VC, handles all this information, and s
 Model: This is only your model, nothing much here. It’s the same model as in MVC. It is used by VM and updates whenever VM sends new updates
 
 
-UI - xib
+UI - Swift (xibs)
 
 In Storyboard using table cell is better then XIB because it gives more flexibility. In Storyboard it is not easy to handle if you have a large amount of code. It is useful only for a small amount of code.
 
