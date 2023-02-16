@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6FD6FE79-FD8A-45F6-96A4-23210928FA75"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E944C5D-7231-4B74-81B0-F6CC19B439F5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotosApp/Screens/Home/ViewModel/PhotosViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "fetchAllPhotos()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5E944C5D-7231-4B74-81B0-F6CC19B439F5 - 35c2fac7372b9aa6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;PhotosApp.Photo&gt;&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; () in PhotosApp.PhotosViewModel.fetchAllPhotos() -&gt; ()"
+                  moduleName = "PhotosApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rajeswaran.perumal/Documents/Learnings/InterviewTask/photosApp/PhotosApp/PhotosApp/Screens/Home/ViewModel/PhotosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "329">
+               </Location>
+               <Location
+                  uuid = "5E944C5D-7231-4B74-81B0-F6CC19B439F5 - 35c2fac7372b9aa6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;PhotosApp.Photo&gt;&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; () in PhotosApp.PhotosViewModel.fetchAllPhotos() -&gt; ()"
+                  moduleName = "PhotosApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rajeswaran.perumal/Documents/Learnings/InterviewTask/photosApp/PhotosApp/PhotosApp/Screens/Home/ViewModel/PhotosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "363">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "833B8CBB-82E3-486E-AD81-987CCBD50C3F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotosApp/Services/PhotosListService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "getPhotos(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "833B8CBB-82E3-486E-AD81-987CCBD50C3F - bbbce36b15f42742"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhotosApp.PhotosListService.getPhotos(completion: (Swift.Optional&lt;Swift.Array&lt;PhotosApp.Photo&gt;&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PhotosApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rajeswaran.perumal/Documents/Learnings/InterviewTask/photosApp/PhotosApp/PhotosApp/Services/PhotosListService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "49">
+               </Location>
+               <Location
+                  uuid = "833B8CBB-82E3-486E-AD81-987CCBD50C3F - 31ffd1dee8250bc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Foundation.Data&gt;) -&gt; () in PhotosApp.PhotosListService.getPhotos(completion: (Swift.Optional&lt;Swift.Array&lt;PhotosApp.Photo&gt;&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PhotosApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rajeswaran.perumal/Documents/Learnings/InterviewTask/photosApp/PhotosApp/PhotosApp/Services/PhotosListService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "145">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E88FA2E0-06F8-427E-9872-B492C15731FB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotosApp/Services/PhotosListService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "getPhotos(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2547965E-5299-47E6-87CE-9DAC59B4A2A6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotosApp/Screens/Home/ViewModel/PhotosViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "setLoaderState(show:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

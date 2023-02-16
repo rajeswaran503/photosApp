@@ -27,4 +27,12 @@ extension UIViewController {
         }))
         self.present(alert, animated: true, completion: nil)
     }
+    
+    func showToast(message: String){
+        let alert = UIAlertController(title: "", message: "\(message)", preferredStyle: .alert)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+            alert.dismiss(animated: true, completion: nil)
+        }
+        self.present(alert, animated: true, completion: nil)
+    }
 }

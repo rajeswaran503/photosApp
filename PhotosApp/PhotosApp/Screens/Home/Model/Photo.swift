@@ -14,3 +14,9 @@ struct Photo: Codable {
     let url: String?
     let thumbnailUrl: String?
 }
+
+struct PhotoResponse: Codable {
+    let status:Bool
+    let photos:[Photo]?
+    var message: String?
+}
